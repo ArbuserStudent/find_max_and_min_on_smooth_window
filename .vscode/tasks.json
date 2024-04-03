@@ -1,17 +1,17 @@
-{
+	{
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++ build active file",
-            "command": "/usr/bin/g++",
+             "label": "C/C++: g++-7 build active file",
+           "command": "/usr/bin/g++-7",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
-                "${fileDirname}/smooth_windows.hxx",
-                "${fileDirname}/smooth_windows.cxx",
-                "${fileDirname}/utilities.hxx",
-                "${fileDirname}/utilities.cxx",
+                "${workspaceFolder}/src/smooth_windows.hxx",
+                "${workspaceFolder}/src/smooth_windows.cxx",
+                "${workspaceFolder}/src/utilities.hxx",
+                "${workspaceFolder}/src/utilities.cxx",
                 "-o",
                 "${workspaceFolder}/build/${fileBasenameNoExtension}",
                 "-lbenchmark", "-L~/usr/lib",
