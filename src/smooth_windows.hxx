@@ -7,4 +7,4 @@
 void smoothWindowUsePriorityQueeu(std::vector<double>& data, std::vector<double>& max, std::vector<double>& min, size_t  windowLength);
 
 // Скользящее окно, использующее примитивный поиск
-void smoothWindowMyPrimitivelementation(std::vector<double>& data, std::vector<double>& max, std::vector<double>& min, size_t  windowLength);
+void smoothWindowPrimitiveImplementation(std::vector<double>& data, std::vector<double>& max, std::vector<double>& min, size_t  windowLength);

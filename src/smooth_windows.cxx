@@ -20,7 +20,7 @@ void smoothWindowUsePriorityQueeu(std::vector<double>& data, std::vector<double>
 
 
 //----------------------------------------------------------------------------------------------------------------
-void smoothWindowMyPrimitivelementation(std::vector<double>& data, std::vector<double>& max, std::vector<double>& min, size_t  windowLength)
+void smoothWindowPrimitiveImplementation(std::vector<double>& data, std::vector<double>& max, std::vector<double>& min, size_t  windowLength)
 {
     size_t median = std::lround(static_cast<double>(windowLength) / 2);
     double medianValue = 0.0;

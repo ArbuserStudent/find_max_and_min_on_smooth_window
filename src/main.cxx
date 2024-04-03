@@ -32,7 +32,7 @@ int main()
         std::vector<double> historyMax(data.size() - windiwLength + 1);
         std::vector<double> historyMin(data.size()- windiwLength + 1);
     
-        smoothWindowMyPrimitivelementation(data, historyMax, historyMin, windiwLength);
+        smoothWindowPrimitiveImplementation(data, historyMax, historyMin, windiwLength);
         std::cout << "history max: ";
         std::copy(historyMax.begin(), historyMax.end(), std::ostream_iterator<double>(std::cout, "  "));
         std::cout << std::endl;
