@@ -1,6 +1,4 @@
 #include <iostream>
-#include <queue>
-#include <vector>
 #include <iterator>
 
 #include "smooth_windows.hxx"
