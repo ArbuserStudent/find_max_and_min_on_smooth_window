@@ -1,2 +1,3 @@
 build/*main
 build/*main_benchmark
+build*.csv
